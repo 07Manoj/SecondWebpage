@@ -1,0 +1,148 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  scroll-behavior: smooth;
+
+}
+
+/* Navigation Bar Styling - Until Line 49 */
+
+#navbar{
+
+  font-family: Reggae One;
+  position: sticky;
+  top: 3px;
+}
+.Main {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+
+.Main a {
+  color: whitesmoke;
+  text-decoration: none;
+  padding: 18px;
+}
+
+img {
+  margin: 0px;
+  width: 100px;
+  height: 80px;
+  padding-right: 90px;
+}
+
+img:hover {
+  cursor: pointer;
+}
+
+.right1 {
+  display: inline-block;
+  padding-left: 257px;
+  justify-content: flex-end;
+}
+
+.Main a:hover {
+  background-color: whitesmoke;
+  color: black;
+  border-radius: 12px;
+}
+
+/* Styling the HOME section -Until Line 90  */
+
+ #sec1{
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+line-height: 35px;
+padding-top: 150px;
+font-size: 1.5rem;
+font: bolder;
+color: rgb(68, 7, 7);
+
+} 
+
+#sec1::before {
+    content: "";
+    background: url(1.jpg);
+    opacity: 0.6;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 500px;
+    position: absolute;
+    z-index: -1;   
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+  }
+
+  #sec1  button{
+
+    margin-top: 23px;
+    font-size: 1.2rem;
+    padding: 5px;
+    border-radius: 18px;
+    cursor: pointer;
+  }
+
+  /* Styling The Review Section - Sec2 Until Line 145 */
+  #sec2{
+
+    display: flex;
+    flex-direction: column;
+     justify-content: center;
+    align-items: center; 
+    line-height: 40px;
+    padding-top: 60px;
+    font-size: 1.5rem;
+    font: bolder;
+    color: rgb(54, 11, 11);
+    
+    } 
+
+    h2,h4 {
+      padding-top: 20px;
+      text-align: center;
+    }
+    h4{
+
+      padding-bottom: 20px;
+    }
+
+    #sec2::before {
+      content: "";
+      background: url(reviews.jpg);
+      background-repeat: repeat-x;
+      opacity: 0.4;
+      width: 100%;
+      height: 400px;
+      position: absolute;
+      z-index: -1;   
+      
+      
+  
+    }
+
+    #sec2  button{
+
+      margin-top: 23px;
+      margin-bottom: 23px;
+      font-size: 1.2rem;
+      padding: 5px;
+      border-radius: 18px;
+      background-color: aqua;
+      cursor: pointer;
+    }
+
+    #sec2 button:hover{
+
+      background-color: black;
+      color: whitesmoke;
+    }
+  
