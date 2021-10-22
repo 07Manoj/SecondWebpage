@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Now</title>
+    <style>* {
+        margin: 0px;
+        padding: 0px;
+        scroll-behavior: smooth;
+        flex-wrap: wrap;
+        
+      
+      }
+      
+      /* Navigation Bar Styling - Until Line 49 */
+      
+      #navbar{
+      
+        font-family: Reggae One;
+        position: sticky;
+        top: 3px;
+      }
+      .Main {
+        display: flex;
+        list-style-type: none;
+        align-items: center;
+        justify-content: center;
+        background-color: black;
+      }
+      
+      .Main a {
+        color: whitesmoke;
+        text-decoration: none;
+        padding: 18px;
+      }
+      
+      img {
+        margin: 0px;
+        width: 100px;
+        height: 80px;
+        padding-right: 150px;
+      }
+      
+      img:hover {
+        cursor: pointer;
+      }
+      
+      .right1 {
+        display: inline-block;
+        padding-left: 257px;
+        justify-content: flex-end;
+      }
+      
+      .Main a:hover {
+        background-color: whitesmoke;
+        color: black;
+        border-radius: 12px;
+      }
+
+      #MEALS{
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    
+      }
+      #meal1{
+
+        display: flex;
+        flex-direction: column;
+        
+        width: 450px;
+        height: 450px;        
+        line-height: 35px;
+        border: 2px solid bisque;
+        padding-left: 30px;      
+        margin-left: 30px;
+        margin-top: 20px;
+        background-color: cadetblue;
+        }
+
+        #meal1:hover{
+
+            background-color: dimgray;
+            color: whitesmoke;
+          
+    
+
+        }
+        #meal1 h3
+        {
+          padding-left: 20px;
+        }
+
+      #meal1 img{
+        padding-top: 10px;
+        height: 150px;
+        width: 150px;
+      padding-left: 100px;
+      }
+
+      strong{
+
+        text-align: center;
+      }
+      
+      .btn{
+
+       
+        width: 150px;
+   margin-left: 150px;
+        padding-bottom: 20px;
+    border-radius: 18px;
+    cursor: pointer;
+    padding: 10px;
+      }
+
+      #meal2{
+
+display: flex;
+flex-direction: column;
+
+width: 450px;
+height: 450px;        
+line-height: 35px;
+border: 2px solid bisque;
+padding-left: 30px;      
+margin-left: 30px;
+margin-top: 20px;
+background-color: cadetblue;
+}
+#meal2:hover{
+
+background-color: dimgray;
+color: whitesmoke;
+
+
+
+}
+#meal2 h3
+{
+  text-align: center;
+}
+
+#meal2 img{
+
+  padding-top: 10px;
+padding-left: 120px;
+height: 150px;
+width: 150px;
+
+}
+
+
+      
+      </style>
+</head>
+<body>
+    <div id="navbar">
+        <ul class="Main">
+          <img src="logo.gif" alt="Logo Goes Here " />
+  
+          <li><a href="Index.html">HOME</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="order.html">ORDER NOW </a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+          <li><a href="Index.html#sec2">REVIEWS</a></li>
+          <li class="right1"><a href="">LOGIN</a></li>
+          <li class="right2"><a href="">SIGN UP</a></li>
+        </ul>
+      </div>
+
+      <div id =MEALS> 
+
+      <div id="meal1"> 
+        
+        <img src="Meal1.jpeg" alt="Rajma-Egg">
+        <h3> Rajma- Egg Curry and Gluten Free Roti</h3>
+      
+      <p> High in Protein clubbed with good and complex carbohydrates this meal will keep you full for longer Made with 100gms of Rajma, two whole eggs and tomatoes makes this a wholesome meal. The Gluten free roti has complex carbohydrates and will keep you full for longer. </p>
+      
+      <strong>   PRICE: 250 INR</strong>
+      <button class="btn"> ORDER NOW!</button>
+      </div>
+
+      <div id="meal2">
+
+
+        <img src="Meal2.jpeg" alt="Quinoa and Lentils">
+        <h3> Quinoa and Lentils Bowl</h3>
+      
+      <p>  The most nutritious bowl you will ever find! Made with quinoa and lentils, this bowl offers you a meal with good amounts of protein, carbohydrates and fat. The best part is that it is low calorie too. </p>
+      
+      <strong>   PRICE: 300 INR</strong>
+      <button class="btn"> ORDER NOW!</button>
+   
+      </div>
+
+        
+      
+      
+   
+    </div>
+</body>
+</html>

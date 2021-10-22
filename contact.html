@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us </title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&display=swap" rel="stylesheet">
+    <style>
+* {
+  margin: 0px;
+  padding: 0px;
+  scroll-behavior: smooth;
+
+}
+#navbar{
+
+font-family: Reggae One;
+position: sticky;
+top: 3px;
+}
+.Main {
+display: flex;
+list-style-type: none;
+align-items: center;
+justify-content: center;
+background-color: black;
+}
+
+.Main a {
+color: whitesmoke;
+text-decoration: none;
+padding: 20px;
+}
+
+#navbar img {
+margin: 0px;
+width: 100px;
+height: 80px;
+padding-right: 155px;
+}
+
+#navbar img:hover {
+cursor: pointer;
+}
+
+.right1 {
+display: inline-block;
+padding-left: 200px;
+justify-content: flex-end;
+}
+
+.Main a:hover {
+background-color: whitesmoke;
+color: black;
+border-radius: 12px;
+}
+
+#Hello::before{
+    content: "";
+    background:url(About.jpg);
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 980px;
+    position: absolute;
+    z-index: -1;   
+ 
+}
+#Hello h2 {
+            
+            font-size: 35px;
+            font-family: 'Baloo Bhai 2', cursive;
+            color:blueviolet;
+            text-align: center; 
+            padding-top:30px ; 
+
+        }
+        #Hello a{
+                text-decoration: none;
+            }
+            #Hello  ul {
+            font-size: 30px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            padding-left:300px;
+            padding-top: 20px;
+
+        }
+        #Hello  li{
+            line-height:55px;
+        }
+        #Hello   img:hover{
+
+            width:50px;
+            height: 50px;
+            color:blueviolet;
+            opacity: 1;
+        }
+
+        #Hello  img {
+
+            width: 30px;
+            height: 30px;
+        }
+
+
+
+
+#contact{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: auto;
+            height: auto;
+
+        }
+        input{
+
+            width: 500px;
+            padding: 13px;
+            margin-bottom: 5px;
+            
+        }
+        label{
+            padding: 13px;
+
+        }
+
+        footer{
+
+            text-align: center;
+            padding: 18px;
+            background-color: black;
+            color: whitesmoke;
+        }
+
+    </style>
+</head>
+<body>
+  
+
+    <div id="navbar">
+        <ul class="Main">
+          <img src="logo.gif" alt="Logo Goes Here " />
+  
+          <li><a href="Index.html">HOME</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="order.html">ORDER NOW </a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+          <li><a href="Index.html#sec2 ">REVIEWS</a></li>
+          <li class="right1"><a href="">LOGIN</a></li>
+          <li class="right2"><a href="">SIGN UP</a></li>
+        </ul>
+      </div>
+      <section id="Hello">
+
+          <h2> Contact Us Here On All Our Handles Or Fill Out The Form Below </h2>
+          <ul type="none">
+              <li><img src="Call.png"> Mobile: +91 7075339078</li>
+              <li><img src="Email.png"> Email ID: manoj.sarma7@gmail.com</li>
+              
+              <li> <a href="https://www.facebook.com/Manoj.Sarma.48"><img src="Facebook.png" > </a> <a href=" https://www.facebook.com/Manoj.Sarma.48" target=" _blank"> FACEBOOK </a>
+              </br> </li>
+              <!-- The target  and blank are attributes. This is used to open the link in a new window-->
+              <li> <a href="https://www.instagram.com/manojsarma8/"> <img src="Instagram.jpg"></a> <a href=" https://www.instagram.com/manojsarma8/" target="_blank"> INSTAGRAM </a> </br> </li>
+              <li><a href="https://www.linkedin.com/in/manojsarma999/"><img src="Linkedin.png"></a><a href="https://www.linkedin.com/in/manojsarma999/" target="_blank"> LINKEDIN</a> </br> </li>
+              
+            </ul>
+            <form id="contact">
+                <label for="Name">Name:</label>
+                <input type="text" placeholder="Enter Your Name ">
+                
+                <label for="Mobile Number">Mobile Number:</label>
+                <input type="text" name="Mobile" id="" placeholder="Enter Your Mobile Number">
+                
+                <label for="Reason">Reason For Contact:</label>
+                <input type="text" name="Reason" id="" placeholder="What do you want to contact me for ">
+                
+                <label for="Message">Enter Your Message For Me Here:</label>
+                <input type="text" name="Message" id="" placeholder="Message Here ">
+                
+                <label for="Email">Enter Your Mail ID: </label>
+                <input type="text" name="Message" id="" placeholder="Email ID ">
+            </form>
+        </section>
+            
+        <footer>&copy; Copyright 2021 ChefManojMeals.com</footer>
+            
+</body>
+</html>
