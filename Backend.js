@@ -46,7 +46,7 @@ const server = http.createServer((req, res) => {
         <ul class="Main">
           <img src="logo.gif" alt="Logo Goes Here " />
   
-          <li><a href="Index.html">HOME</a></li>
+          <li><a href="index.html">HOME</a></li>
           <li><a href="about.html">ABOUT</a></li>
           <li><a href="order.html">ORDER NOW </a></li>
           <li><a href="contact.html">CONTACT</a></li>
