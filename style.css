@@ -16,7 +16,7 @@
 .Main {
   display: flex;
   list-style-type: none;
-  align-items: center;
+  align-items: center ;
   justify-content: center;
   background-color: black;
 }
@@ -25,13 +25,16 @@
   color: whitesmoke;
   text-decoration: none;
   padding: 18px;
+  
+ 
+  
 }
 
 img {
   margin: 0px;
   width: 100px;
   height: 80px;
-  padding-right: 90px;
+  padding-right:300px;
 }
 
 img:hover {
